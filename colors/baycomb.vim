@@ -179,6 +179,7 @@ hi tablinefill  ctermfg=green ctermbg=darkblue
 "
 hi MatchParen	ctermfg=black ctermbg=green
 
+hi BlingHilight ctermbg=cyan guibg=cyan
 
 elseif &background == "light"
 
@@ -313,6 +314,8 @@ hi Error	cterm=bold ctermfg=7 ctermbg=1
 " new Vim 7.0 items
 hi Pmenu        ctermbg=darkblue ctermfg=lightgrey
 hi PmenuSel     ctermbg=lightblue ctermfg=white                    
+
+hi BlingHilight ctermbg=red guibg=red
 
 "vim: sw=4
 
